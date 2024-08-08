@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ginasio"
+version = "0.1.0"
+description = "\"Projeto para Guarda Exercicios Efetuados\""
+authors = ["wedisleyMateus <wedmat282016@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.112.0"
+sqlalchemy = "^2.0.32"
+uvicorn = "^0.30.5"
+pydantic = "^2.8.2"
+pydantic-settings = "^2.4.0"
+psycopg2-binary = "^2.9.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
